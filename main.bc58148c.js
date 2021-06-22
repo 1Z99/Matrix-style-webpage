@@ -1,23 +1,3 @@
-if(canChange) {
-  count++
-}
-if(globalCount >= 6) {
- canChange = true
-}
-if(count>=INITIAL_WORD.length) {
- clearInterval(interv)
- count = 0
- canChange = false
- globalCount = 0
- isGoing = false
-}
-globalCount++
-},40)
-
-}
-
-word.addEventListener('mouseenter', init)
-
 class TextScramble {
   constructor(el) {
     this.el = el
