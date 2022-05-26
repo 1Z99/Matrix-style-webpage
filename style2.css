@@ -100,14 +100,17 @@ p{margin:0}
 
 .ftt {
   transition: all 0.3s;
-  color: #1eff00;
-  text-shadow: 0 0 10px #1eff00,
-               0 0 20px #1eff00,
-               0 0 40px #1eff00,
-               0 0 80px #1eff00,
-               0 0 120px #1eff00;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff,
+               0 0 20px #ccd4cb,
+               0 0 40px #ffffff,
+               0 0 80px #ffffff,
+               0 0 120px #ffffff;
 }
 
+small.explains {
+  color: white;
+}
 
 .fff {
   cursor: pointer;
@@ -522,6 +525,9 @@ h2:before, h2:after, h1:before, h1:after, h3:before, h3:after {
   content:" ";
 }
 
+h3 {
+  color: white;
+}
 
 /*Gradent Elements*/
 button:hover, hr, img {
