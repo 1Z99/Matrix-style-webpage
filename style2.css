@@ -20,14 +20,13 @@ min-height: 100%;;left:0;right:0;bottom:30%;box-shadow:inset 0 -40px 60px 10px #
 }
 
 .cou {
-  image-rendering: pixelated;
   transition: all 0.3;
 }
 .cou:hover {
   cursor: pointer;
   border-radius: 10px 50px 10px 50px;
-
 }
+
 .output-console {
   position: fixed;
   top: 0;
@@ -86,29 +85,44 @@ p{margin:0}
   border-radius:.25rem;background-color:rgba(197, 238, 193, 0.616);border:1px solid rgba(233, 6, 6, 0.125);margin-bottom:2rem;border-radius: 10px 50px 10px 50px; filter: drop-shadow(1 1 1em rgb(255, 2, 2));
 }
 
-.fff {
+.ftt {
+  transition: all 0.3s;
+  color: #1eff00;
+  text-shadow: 0 0 10px #1eff00,
+               0 0 20px #1eff00,
+               0 0 40px #1eff00,
+               0 0 80px #1eff00,
+               0 0 120px #1eff00;
+}
 
+
+.fff {
   justify-content: center;
   align-items: center;
   display: flex;
-}
-.fff {
   font-family: 'Goldman', monospace;
   font-weight: bold;
   font-size: 8rem;
   color: #c8c8c8;
-  filter: drop-shadow(0 0 0.3em rgba(200,200,200,0.3));
+  text-shadow: 0 0 10px #c8c8c8,
+               0 0 20px #c8c8c8,
+               0 0 40px #c8c8c8,
+               0 0 80px #c8c8c8,
+               0 0 120px #c8c8c8;
   transition: all 0.3s;
 }
-.fff {
-  color: rgba(200,30,30,0.8);
-}
+
 
 
 .fff:hover {
-  color: rgb(255, 0, 0);
-  filter: drop-shadow(0 0 1em rgb(255, 192, 192));+
+  color: #1eff00;
+  text-shadow: 0 0 10px #1eff00,
+               0 0 20px #1eff00,
+               0 0 40px #1eff00,
+               0 0 80px #1eff00,
+               0 0 120px #1eff00;
 }
+
 
 #feel {
   justify-content: center;
@@ -127,28 +141,63 @@ p{margin:0}
   font-family: 'Goldman', monospace;
   font-weight: normal;
   font-size: 2rem;
-  color: #c8c8c8;
-  filter: drop-shadow(0 0 0.3em rgba(200,200,200,0.3));
-}
+  color: #fefffe;
+  text-shadow: 0 0 10px #1eff00,
+                 0 0 20px #1eff00,
+                 0 0 40px #1eff00,
+                 0 0 80px #1eff00,
+                 0 0 120px #1eff00;
+  }
+
 .dud {
-  color: rgb(255, 0, 0);
-  filter: drop-shadow(0 0 0.5em #f00);
+  color: #ffffff;
+  text-shadow: 0 0 10px #1eff00,
+                0 0 20px #ff00ea,
+                0 0 40px #00ffb3,
+                0 0 80px #ff0000,
+                0 0 120px #0004ff;
+  
 }
 
 
 
 .fa-twitter {
   transition: all 0.2s;
+  color: #c8c8c8;
+  text-shadow: 0 0 10px #c8c8c8,
+               0 0 20px #c8c8c8,
+               0 0 40px #c8c8c8,
+               0 0 80px #c8c8c8,
+               0 0 120px #c8c8c8;
 }
 
 .fa-twitter:hover {
   transform: scale(1.5, 1.5);
+  color: #1eff00;
+  text-shadow: 0 0 10px #1eff00,
+               0 0 20px #1eff00,
+               0 0 30px #1eff00,
+               0 0 40px #1eff00,
+               0 0 80px #1eff00;
 }
-.fa-facebook {
+
+.fa-github {
   transition: all 0.2s;
+  color: #c8c8c8;
+  text-shadow: 0 0 10px #c8c8c8,
+               0 0 20px #c8c8c8,
+               0 0 40px #c8c8c8,
+               0 0 80px #c8c8c8,
+               0 0 120px #c8c8c8;
 }
-.fa-facebook:hover {
+.fa-github:hover {
   transform: scale(1.5, 1.5);
+  color: #1eff00;
+  text-shadow: 0 0 10px #1eff00,
+               0 0 20px #1eff00,
+               0 0 30px #1eff00,
+               0 0 40px #1eff00,
+               0 0 80px #1eff00;
 }
 .fa-linkedin {
   transition: all 0.2s;
@@ -174,12 +223,58 @@ p:hover {
 
 .faq {
   transition: all 0.3s;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff,
+               0 0 20px #ffffff,
+               0 0 30px #ffffff,
+               0 0 40px #1eff00;
 
 }
 .faq:hover {
   filter: drop-shadow(1em) rgb(21, 255, 0);
+  color: #1eff00;
+  text-shadow: 0 0 10px #1eff00,
+               0 0 20px #1eff00,
+               0 0 30px #1eff00,
+               0 0 40px #1eff00,
+               0 0 120px #1eff00;
 }
 
+
+.explains {
+  transition: all 0.3s;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff,
+               0 0 20px #ffffff,
+               0 0 30px #ffffff,
+               0 0 40px #1eff00;
+}
+.explains:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #1eff00,
+               0 0 20px #1eff00,
+               0 0 30px #1eff00,
+               0 0 40px #1eff00,
+               0 0 120px #1eff00;
+}
+
+.date-title:hover {
+  color: #1eff00;
+  text-shadow: 0 0 10px #1eff00,
+               0 0 20px #1eff00,
+               0 0 40px #1eff00,
+               0 0 80px #ffffff,
+               0 0 120px #1eff00;
+}
+
+.date {
+  color: #1eff00;
+  text-shadow: 0 0 10px #1eff00,
+               0 0 20px #1eff00,
+               0 0 40px #1eff00,
+               0 0 80px #1eff00,
+               0 0 120px #1eff00;
+}
 .img-responsive  {
   border-radius: 50px 10px 50px 10px;
   transition: all 0.3s;
@@ -189,7 +284,6 @@ p:hover {
 .img-responsive:hover {
   transform: scale(1.05, 1.05);
   filter: drop-shadow(0 0 0.4em rgb(0, 0, 0));
-  filter: invert(100%) contrast(175%) brightness(103%);
 }
 
 .card-block {
@@ -215,7 +309,21 @@ p:hover {
 }
 .visual2:hover {
   transform: scale(1.03, 1.03);
-  border-color: #ffffff;
+  border-color: #1eff00;
+  box-shadow: 0 0 2px #1eff00,
+              0 0 4px #1eff00,
+              0 0 6px #1eff00,
+              0 0 8px #1eff00;
+}
+
+
+.imageDisplay:hover {
+  transform: scale(1.03, 1.03);
+  border-color: #1eff00;
+  box-shadow: 0 0 2px #1eff00,
+              0 0 4px #1eff00,
+              0 0 6px #1eff00,
+              0 0 8px #1eff00;
 }
 .visual2:before, .visual2:after {
   content: "";
@@ -248,8 +356,21 @@ p:hover {
 
 .visual1:hover {
   transform: scale(1.03, 1.03);
-  border-color: #ffffff;
+  border-color: #1eff00;
+  box-shadow: 0 0 2px #1eff00,
+              0 0 4px #1eff00,
+              0 0 6px #1eff00,
+              0 0 8px #1eff00;
 }
+
+.end {
+  color: #ff0000;
+  text-shadow: 0 0 10px #ff0000,
+              0 0 20px #ff0000,
+              0 0 40px #ff0000,
+              0 0 80px #ff0000;
+}
+
 .visual1:after, .visual1:before {
   position:absolute;
   top: 0;
