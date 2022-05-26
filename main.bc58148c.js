@@ -12,8 +12,8 @@ class TextScramble {
     for (let i = 0; i < length; i++) {
       const from = oldText[i] || ''
       const to = newText[i] || ''
-      const start = Math.floor(Math.random() * 7)
-      const end = start + Math.floor(Math.random() * 10)
+      const start = Math.floor(Math.random() * 3)
+      const end = start + Math.floor(Math.random() * 4)
       this.queue.push({ from, to, start, end })
     }
     cancelAnimationFrame(this.frameRequest)
@@ -53,20 +53,11 @@ class TextScramble {
 }
 
 const phrases = [
-  '😈 NAWZAT 😇',
+  'N4WZAT',
   'Solidity & javaScript',
-  'Blockchain',
-  'Security',
-  '&',
-  '😈💔😈',
   'Germany',
   'FREEDOM \ { * } 夢',
-  '非常識なプログラマー',
-  'هناك قاعدتان لكل شيئ',
-  'القاعدة الأولى',
-  'لا تتكلم كل شيئ تعرفه',
   '1Z99',
-  '😈'
 ]
 
 const el = document.querySelector('.text-change, cute')
