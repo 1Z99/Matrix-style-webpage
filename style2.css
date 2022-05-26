@@ -1,12 +1,41 @@
 @import 'https://fonts.googleapis.com/css2?family=Goldman&display=swap';
+*
 
 
 .bars-and-stuff{
     left:33.3%;
 }
 
+.c4 {
+  color: #ffffff;
+  text-shadow: 0 0 10px #c8c8c8,
+               0 0 20px #c8c8c8,
+               0 0 40px #c8c8c8,
+               0 0 90px #c8c8c8;
+}
 
+.alone {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+}
+.R {
+  filter: drop-shadow(0 0 3rem rgb(0, 255, 0));
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  font-family: 'Goldman', monospace;
+  color: #555;
+}
 
+.card {
+  box-shadow: 0 0 5px #ffffff,
+  0 0 10px #ffffff,
+  0 0 11px #ffffff,
+  0 0 12px #ffffff;
+}
 .background-color-layer{background-size:cover;opacity:.45;background-repeat: repeat-x;;position:fixed;z-index:-1;top:0;min-width: 100%;
 min-height: 100%;;left:0;right:0;bottom:30%;box-shadow:inset 0 -40px 60px 10px #03410b}
 
@@ -20,16 +49,12 @@ min-height: 100%;;left:0;right:0;bottom:30%;box-shadow:inset 0 -40px 60px 10px #
   opacity: 0.5;
 }
 
-.h2 { 
-    cursor: pointer;
-}
 
 .cou {
   transition: all 0.3;
 }
 .cou:hover {
   cursor: pointer;
-  border-radius: 10px 50px 10px 50px;
 }
 
 .output-console {
@@ -61,34 +86,17 @@ p{margin:0}
   height: 100%;
 }
 
-#x1 {
-  transition: all 0.3s;
-}
-
-#x1:hover {
-  border-radius:.25rem;background-color:rgba(218, 7, 7, 0.993);border:1px solid rgba(0,0,0,.125);margin-bottom:2rem;border-radius: 10px 50px 10px 50px; filter: drop-shadow(1 1 1em rgb(7, 0, 0));
-}
-
-.col-md-8 > p {
-  transition: all 0.3s;
-}
 
 .col-md-8:hover > p {
   color: rgb(255, 255, 255)
 }
 
-.card{border-radius: 50px 10px 50px 10px;background-color:rgba(197, 238, 193, 0.616);border:1px solid rgba(0,0,0,.125);margin-bottom:2rem; transition: all 1s;
+.card{ border-radius: 50px 10px 50px 10px;background-color:rgba(197, 238, 193, 0.616);border:1px solid rgba(0,0,0,.125);margin-bottom:1rem;
 }
 
-.card .h2,.card h2{ font-family: Goldman; margin-top:-10px;margin-bottom:0px; transition: all 1s; }.card .card-block{padding:3rem;transition: all 1s;}@media (width:992px){.card .card-block{padding:3rem}}
+.card .h2,.card h2{ font-family: Goldman; margin-top:-10px;margin-bottom:0px; transition: all 1s; }.card .card-block{padding:3rem;transition: all 1s;}@media (width:9px){.card .card-block{padding:3rem}}
 
-#xz {
-  transition: all 0.3s;
-}
 
-#x1:hover {
-  border-radius:.25rem;background-color:rgba(197, 238, 193, 0.616);border:1px solid rgba(233, 6, 6, 0.125);margin-bottom:2rem;border-radius: 10px 50px 10px 50px; filter: drop-shadow(1 1 1em rgb(255, 2, 2));
-}
 
 .ftt {
   transition: all 0.3s;
@@ -102,30 +110,143 @@ p{margin:0}
 
 
 .fff {
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   display: flex;
   font-family: 'Goldman', monospace;
   font-weight: bold;
   font-size: 8rem;
-  color: #c8c8c8;
-  text-shadow: 0 0 10px #c8c8c8,
-               0 0 20px #c8c8c8,
-               0 0 40px #c8c8c8,
-               0 0 80px #c8c8c8,
-               0 0 120px #c8c8c8;
-  transition: all 0.3s;
-}
-
-
-
-.fff:hover {
   color: #1eff00;
   text-shadow: 0 0 10px #1eff00,
                0 0 20px #1eff00,
                0 0 40px #1eff00,
                0 0 80px #1eff00,
                0 0 120px #1eff00;
+}
+
+.c4 {
+  color: #ffffff;
+}
+
+
+.fff:hover {
+               color: #ffffff;
+               text-shadow: 0 0 10px #c8c8c8,
+                            0 0 20px #c8c8c8,
+                            0 0 40px #c8c8c8,
+                            0 0 90px #c8c8c8;
+}
+.glitch {
+  display: flex;
+  justify-content: center;
+  animation: glitch-skew 4s cubic-bezier(0.05, 0.16, 0.05, 0.34) 0.6s infinite;
+  font-family: orbitron, sans-serif;
+  font-size: 8rem;
+  font-weight: 900;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transform-origin: center top;
+}
+
+.glitch__main {
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+.gc {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  transform-origin: center center;
+  width: 100%;
+
+}
+
+.gc-red {
+  display: flex;
+  justify-content: center;
+  animation: glitch 300ms cubic-bezier(0.05, 0.16, 0.05, 0.34) infinite;
+  color: red;
+}
+
+.gc-blue {
+  display: flex;
+  justify-content: center;
+  animation: glitch 300ms cubic-bezier(0.05, 0.16, 0.05, 0.34) infinite reverse;
+  color: blue;
+}
+
+.gc-green {
+  display: flex;
+  justify-content: center;
+  animation: glitch 300ms cubic-bezier(0.05, 0.16, 0.05, 0.34) 100ms infinite;
+  color: #00FF0B;
+}
+
+.glfirst {
+  display: flex;
+  justify-content: center;
+}
+.glsecond {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-3px, 3px);
+  }
+  40% {
+    transform: translate(-3px, -3px);
+  }
+  60% {
+    transform: translate(3px, 3px);
+  }
+  80% {
+    transform: translate(3px, -3px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes glitch-skew {
+  0% {
+    transform: skew(0deg, 0deg);
+  }
+  48% {
+    transform: skew(0deg, 0deg);
+    filter: blur(0);
+  }
+  50% {
+    transform: skew(-20deg, 0deg);
+    filter: blur(4px);
+  }
+  52% {
+    transform: skew(20deg, 0deg);
+  }
+  54% {
+    transform: skew(0deg, 0deg);
+    filter: blur(0);
+  }
+  100% {
+    transform: skew(0deg, 0deg);
+  }
+}
+
+
+.scalename:hover {
+  transform: scale(1.02);
 }
 
 
@@ -143,6 +264,7 @@ p{margin:0}
   display: flex;
 }
 .text-change {
+  cursor: cell;
   font-family: 'Goldman', monospace;
   font-weight: normal;
   font-size: 2rem;
@@ -177,6 +299,7 @@ p{margin:0}
 }
 
 .fa-twitter:hover {
+  cursor: pointer;
   transform: scale(1.5, 1.5);
   color: #1eff00;
   text-shadow: 0 0 10px #1eff00,
@@ -196,6 +319,7 @@ p{margin:0}
                0 0 120px #c8c8c8;
 }
 .fa-github:hover {
+  cursor: pointer;
   transform: scale(1.5, 1.5);
   color: #1eff00;
   text-shadow: 0 0 10px #1eff00,
@@ -218,25 +342,19 @@ p {
   font-weight: bold;
   font-size: 1.7rem;
   color: rgba(255, 255, 255, 0.986); 
-  transition: all 0.2s;
 }
 
-p:hover {
-  color: #ff0000;
-  transform: rotate(30px);
-}
 
 .faq {
-  transition: all 0.3s;
+  cursor: crosshair;
   color: #ffffff;
-  text-shadow: 0 0 10px #ffffff,
-               0 0 20px #ffffff,
-               0 0 30px #ffffff,
+  text-shadow: 0 0 5px #ffffff,
+  0 0 10px #ffffff,
                0 0 40px #1eff00;
 
 }
 .faq:hover {
-  filter: drop-shadow(1em) rgb(21, 255, 0);
+  transform: scale(1.02);
   color: #1eff00;
   text-shadow: 0 0 10px #1eff00,
                0 0 20px #1eff00,
@@ -280,55 +398,53 @@ p:hover {
                0 0 80px #1eff00,
                0 0 120px #1eff00;
 }
+
 .img-responsive  {
   border-radius: 50px 10px 50px 10px;
-  transition: all 0.3s;
-  filter: drop-shadow(0 0 0.4em rgb(0, 0, 0));
+              filter: drop-shadow(0 0 0.7rem rgb(14, 14, 14));
+
 }
 
-.img-responsive:hover {
-  transform: scale(1.05, 1.05);
-  filter: drop-shadow(0 0 0.4em rgb(0, 0, 0));
-}
-
-.card-block {
-  transition: 0.3;
-}
-
-.card-block:hover {
-  color: #ff0000;
-  transform: rotate(30px);
-}
 
 ::selection {
   background-color:green;
 }
 
 .visual2 {
+  cursor: crosshair;
   width: 100%;
   height: 200px;
-  border: 1px solid green;
+  border-radius: 50px 10px 50px 10px;
+  box-shadow: 0 0 5px #ffffff,
+  0 0 10px #ffffff,
+  0 0 11px #ffffff,
+  0 0 12px #ffffff;
   position: relative;
   margin-bottom: 10px;
-  transition: all 0.3s;
 }
 .visual2:hover {
   transform: scale(1.03, 1.03);
-  border-color: #1eff00;
-  box-shadow: 0 0 2px #1eff00,
-              0 0 4px #1eff00,
-              0 0 6px #1eff00,
-              0 0 8px #1eff00;
+  box-shadow: 0 0 10px #ffffff,
+  0 0 13px #ffffff,
+  0 0 14px #ffffff,
+  0 0 15px #ffffff;
 }
 
+.imageDisplay {
+  cursor: pointer;
+  border-radius: 50px 10px 50px 10px;
+  box-shadow: 0 0 5px #ffffff,
+  0 0 10px #ffffff,
+  0 0 11px #ffffff,
+  0 0 12px #ffffff;
+}
 
 .imageDisplay:hover {
   transform: scale(1.03, 1.03);
-  border-color: #1eff00;
-  box-shadow: 0 0 2px #1eff00,
-              0 0 4px #1eff00,
-              0 0 6px #1eff00,
-              0 0 8px #1eff00;
+  box-shadow: 0 0 10px #ffffff,
+  0 0 13px #ffffff,
+  0 0 14px #ffffff,
+  0 0 15px #ffffff;
 }
 .visual2:before, .visual2:after {
   content: "";
@@ -351,21 +467,24 @@ p:hover {
 }
 
 .visual1 {
+  cursor: crosshair;
   width: 100%;
   height: 200px;
-  border: 1px solid green;
+  border-radius: 50px 10px 50px 10px;
+  box-shadow: 0 0 5px #ffffff,
+  0 0 10px #ffffff,
+  0 0 11px #ffffff,
+  0 0 12px #ffffff;
   position: relative;
   margin-bottom: 10px;
-  transition: all 0.3s;
 }
 
 .visual1:hover {
   transform: scale(1.03, 1.03);
-  border-color: #1eff00;
-  box-shadow: 0 0 2px #1eff00,
-              0 0 4px #1eff00,
-              0 0 6px #1eff00,
-              0 0 8px #1eff00;
+  box-shadow: 0 0 10px #ffffff,
+  0 0 13px #ffffff,
+  0 0 14px #ffffff,
+  0 0 15px #ffffff;
 }
 
 .end {
@@ -376,6 +495,9 @@ p:hover {
               0 0 80px #ff0000;
 }
 
+.ending:hover {
+  transform: scale(1.03);
+}
 .visual1:after, .visual1:before {
   position:absolute;
   top: 0;
@@ -612,6 +734,12 @@ iframe#iframeVideo {
   margin-right: 0;
 }
 
+.ending {
+  text-shadow: 0 0 10px #ffffff,
+  0 0 20px #ffffff,
+  0 0 30px #ffffff,
+  0 0 40px #ffffff;
+}
 
 
 
@@ -669,4 +797,21 @@ iframe#iframeVideo {
       width: auto;
       padding: 0 10px;
     }
+}
+
+.c4 {
+  color: #ff0000;
+  text-shadow: 0 0 10px #ff0000,
+               0 0 20px #ff0000,
+               0 0 40px #ff0000,
+               0 0 90px #380000;
+}
+
+.c4:hover {
+  color: #1eff00;
+  text-shadow: 0 0 10px #1eff00,
+               0 0 20px #1eff00,
+               0 0 40px #1eff00,
+               0 0 80px #1eff00,
+               0 0 120px #1eff00;
 }
