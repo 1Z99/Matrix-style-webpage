@@ -1,11 +1,12 @@
 # My-Portfolio
-My portfolio build above free website template
-
-The free website template i used to build my portfolio : https://technext.github.io/energy1/index.html
+My portfolio build above free website template that looks nothing like him!
 
 
-BEFORE : ![chrome-capture-2022-4-25](https://user-images.githubusercontent.com/85915502/170190557-cfba1ecb-c9c6-46c0-be7d-d300bff3aad6.gif)
-_____________________________________________________
+My Alien Portfolio 👽 : ![ezgif-4-46769ab622](https://user-images.githubusercontent.com/85915502/170406514-0466ea6e-d05d-4030-b172-60142ac4a1c4.gif)
 
-AFTER : ![ezgif-4-ee5ca3b375](https://user-images.githubusercontent.com/85915502/170406141-de8cdbad-5fb0-4e22-ac51-b5c77f3e0ef2.gif)
+__________________________________________________________________________________________________________________________________________________
+
+
+The free template i used to build my profile : https://user-images.githubusercontent.com/85915502/170190557-cfba1ecb-c9c6-46c0-be7d-d300bff3aad6.gif
+
 
