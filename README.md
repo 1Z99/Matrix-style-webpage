@@ -1,5 +1,5 @@
 # My-Portfolio
-My portfolio build above free website template that looks nothing like him!
+My portfolio build above a free template that looks nothing like i build!
 
 
 My Alien Portfolio 👽 : ![ezgif-4-46769ab622](https://user-images.githubusercontent.com/85915502/170406514-0466ea6e-d05d-4030-b172-60142ac4a1c4.gif)
