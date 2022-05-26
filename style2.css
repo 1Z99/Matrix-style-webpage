@@ -6,6 +6,7 @@
 }
 
 
+
 .background-color-layer{background-size:cover;opacity:.45;background-repeat: repeat-x;;position:fixed;z-index:-1;top:0;min-width: 100%;
 min-height: 100%;;left:0;right:0;bottom:30%;box-shadow:inset 0 -40px 60px 10px #03410b}
 
@@ -17,6 +18,10 @@ min-height: 100%;;left:0;right:0;bottom:30%;box-shadow:inset 0 -40px 60px 10px #
   top:0;min-width: 100%;
   min-height: 100%;;left:0;right:0;bottom:30%;
   opacity: 0.5;
+}
+
+.h2 { 
+    cursor: pointer;
 }
 
 .cou {
